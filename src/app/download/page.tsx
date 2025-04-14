@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 import { ArrowDownTrayIcon } from '@heroicons/react/24/outline';
-import Link from 'next/link';
+
 
 export default function DownloadPage() {
   useEffect(() => {
@@ -57,14 +57,7 @@ export default function DownloadPage() {
           </div>
         </div>
 
-        <div className="mt-12">
-          <Link
-            href="/documentation"
-            className="text-[#1d1d1f] font-semibold hover:underline"
-          >
-            View Documentation →
-          </Link>
-        </div>
+       
       </div>
     </div>
   );
