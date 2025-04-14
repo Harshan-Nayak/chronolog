@@ -88,7 +88,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-200 py-8">
           <p className="text-sm text-gray-600 text-center">
-            © {new Date().getFullYear()} Chronolog. All rights reserved.
+            © {new Date().getFullYear()} Chronolog. All rights reserved, Built By Harshan Nayak
           </p>
         </div>
       </div>
